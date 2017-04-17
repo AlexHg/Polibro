@@ -1,0 +1,242 @@
+$link = #2199e8
+//@import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic,400italic,700,500,300)
+body 
+  //overflow-x hidden
+  margin 0
+  padding 0
+  max-width 100%
+  h1, h2 ,h3, h4, h5, h6, span, ul, li, p, a
+    font 400 16px/24px Roboto,sans-serif
+    font-family 'Roboto', sans-serif !important
+  //font-family "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif
+  input#enter
+    display none
+    &:checked ~ .portada 
+      top -200vh   
+      transition all .5
+  .portada
+    width 100%
+    height 100%
+    position fixed;
+    z-index 10
+    background-image url('../img/portada.jpg')
+    background-size cover
+    display flex
+    flex-wrap wrap
+    justify-content center
+    align-items center
+    text-align center
+    top 0
+    transition .5s top
+    #title, #credits, #enterb
+      width 100%
+    h1
+      color white
+      font-size 80px
+      text-shadow 1px 1px 5px black, -1px -1px 5px black
+      line-height 1em
+    label
+      width 200px
+      background-color $link
+      height 50px
+      display flex
+      justify-content center
+      align-items center
+      color white
+      cursor pointer
+      span
+        font-size 1.5em
+    #enterb
+      display flex 
+      justify-content center          
+  .close 
+    display none
+  header 
+    //height 170px
+    //background-image url('../img/portada.jpg')
+    background-color #1976d2
+    background-position center center
+    display flex 
+    flex-wrap wrap
+    justify-content center
+    align-items flex-end
+    #title 
+      color white
+      display flex
+      padding 0 1em 
+      justify-content space-between
+      align-items center
+      width 100%
+      .search, span.autor
+        @media(max-width 520px)
+          display none
+      input 
+        background $link
+        padding .5em
+        color yellow
+        border-radius 10px
+        border 2px solid darken($link,30%)
+      h1
+        font-size 25px
+        //text-shadow 1px 1px 5px black, -1px -1px 5px black
+    #logos
+      background lighten($link,15%)
+      height 60px
+      width 100%
+      @media(max-width 400px)
+        display none
+      figure 
+        margin 10px 0
+        padding 0 2em 0 1em
+        height 40px
+        display flex 
+        justify-content space-between
+        img 
+          height 100%
+        img:nth-child(2)
+          height 50px
+          margin-top -5px
+  section
+    display flex 
+    width 100% !important
+    max-width 100% !important
+    box-shadow 0 0 30px black  
+    article 
+      background white
+      width 100%
+      padding 0 2em 4em 2em
+      #title 
+        max-width 100%
+        h2
+          font-size 3em
+          line-height 1em
+          @media(max-width 400px)
+            font-size 2.1em
+          small 
+            color #707070
+            font-size .50em
+            margin-left .5em
+            display inline-block
+        .description
+          margin-top -1.5em
+      #content 
+        max-width 100%
+        width 100%
+        @media(max-width 480px)
+          display flex
+          flex-wrap wrap
+        h3
+          border-top 1px solid #F0F0F0
+          color #5B5B5B
+          padding-top 40px
+          font-size 2em
+          //margin-top -.05em
+        p 
+          max-width 100%
+          width 100%
+        figure 
+          display flex
+          justify-content center
+          position relative
+          width auto
+          top -35px
+          margin 0
+          background-color white
+          max-width 100%
+          width 500px
+          height 420px
+          z-index 1
+        img 
+          float center
+          //max-width 500px
+          max-height 450px
+          position absolute
+          display inline-block
+        #subtemas
+          float left
+          background darken(#FaFaFa,5%)
+          padding 1.3em
+          margin .3em 1em .2em 0
+          min-width 150px
+          max-width 100%
+          @media(max-width 480px)
+            width 100%
+          h5
+            margin-top .2em
+            margin-bottom .2em
+            font-weight bold
+            font-size 1.05em
+          ul 
+            list-style none
+            padding 0
+            padding-left .5em
+            padding-top -1em
+            margin 0
+            li 
+              span 
+                cursor pointer  
+                &:hover 
+                  border-bottom 1px dashed darken(#FaFaFa,50%)
+    aside 
+      padding-top 1em
+      width 270px
+      min-height 80vh
+      background #FaFaFa
+      @media(max-width 850px)
+        display none
+      a 
+        text-decoration none
+      .title 
+        color #707070
+        padding-bottom .25em
+        margin-bottom .7em
+        border-bottom 1px solid #E1E0E0
+        //width 100px
+        margin-left 0
+      .version 
+        font-size 15px
+        font-weight bold
+        margin-bottom 1em
+        margin-left 0
+      ul 
+        list-style none
+        padding 0 1.5em
+        li, .home
+          display block
+          padding .1em 0
+          font-size 1.1em
+          margin-left .5em
+          .submenu
+            font-size .9em
+            padding .2em .5em 
+            span, a 
+              text-decoration none
+              cursor pointer
+              color $link
+              //margin .2em 0 
+              &:visited 
+                text-decoration none
+              &:hover 
+                color darken($link,20%) 
+            li 
+              display flex 
+              justify-content flex-start
+              align-items center
+          label, .home
+            cursor pointer
+            color $link
+            &:hover 
+              color darken($link,20%)
+          ul.submenu 
+            display none
+          input[name="tem"]
+            display none
+          input[name="tem"]:checked 
+            & ~ ul.submenu
+              display block
+            & ~ label
+              color darken($link,30%)
+  footer 
+    height 100px
+    background-color black
+    width 100%

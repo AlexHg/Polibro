@@ -1,0 +1,334 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body span,
+body ul,
+body li,
+body p,
+body a {
+  font: 400 16px/24px Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif !important;
+}
+body input#enter {
+  display: none;
+}
+body input#enter:checked ~ .portada {
+  top: -200vh;
+  transition: all 0.5;
+}
+body .portada {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 10;
+  background-image: url("../img/portada.jpg");
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  transition: 0.5s top;
+}
+body .portada #title,
+body .portada #credits,
+body .portada #enterb {
+  width: 100%;
+}
+body .portada h1 {
+  color: #fff;
+  font-size: 80px;
+  text-shadow: 1px 1px 5px #000, -1px -1px 5px #000;
+  line-height: 1em;
+}
+body .portada label {
+  width: 200px;
+  background-color: #2199e8;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+body .portada label span {
+  font-size: 1.5em;
+}
+body .portada #enterb {
+  display: flex;
+  justify-content: center;
+}
+body .close {
+  display: none;
+}
+body header {
+  background-color: #1976d2;
+  background-position: center center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+body header #title {
+  color: #fff;
+  display: flex;
+  padding: 0 1em;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+@media (max-width: 520px) {
+  body header #title .search,
+  body header #title span.autor {
+    display: none;
+  }
+}
+body header #title input {
+  background: #2199e8;
+  padding: 0.5em;
+  color: #ff0;
+  border-radius: 10px;
+  border: 2px solid #116ca8;
+}
+body header #title h1 {
+  font-size: 25px;
+}
+body header #logos {
+  background: #42a8eb;
+  height: 60px;
+  width: 100%;
+}
+@media (max-width: 400px) {
+  body header #logos {
+    display: none;
+  }
+}
+body header #logos figure {
+  margin: 10px 0;
+  padding: 0 2em 0 1em;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+body header #logos figure img {
+  height: 100%;
+}
+body header #logos figure img:nth-child(2) {
+  height: 50px;
+  margin-top: -5px;
+}
+body section {
+  display: flex;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-shadow: 0 0 30px #000;
+}
+body section article {
+  background: #fff;
+  width: 100%;
+  padding: 0 2em 4em 2em;
+}
+body section article #title {
+  max-width: 100%;
+}
+body section article #title h2 {
+  font-size: 3em;
+  line-height: 1em;
+}
+@media (max-width: 400px) {
+  body section article #title h2 {
+    font-size: 2.1em;
+  }
+}
+body section article #title h2 small {
+  color: #707070;
+  font-size: 0.5em;
+  margin-left: 0.5em;
+  display: inline-block;
+}
+body section article #title .description {
+  margin-top: -1.5em;
+}
+body section article #content {
+  max-width: 100%;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  body section article #content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+body section article #content h3 {
+  border-top: 1px solid #f0f0f0;
+  color: #5b5b5b;
+  padding-top: 40px;
+  font-size: 2em;
+}
+body section article #content p {
+  max-width: 100%;
+  width: 100%;
+}
+body section article #content figure {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: auto;
+  top: -35px;
+  margin: 0;
+  background-color: #fff;
+  max-width: 100%;
+  width: 500px;
+  height: 420px;
+  z-index: 1;
+}
+body section article #content img {
+  float: center;
+  max-height: 450px;
+  position: absolute;
+  display: inline-block;
+}
+body section article #content #subtemas {
+  float: left;
+  background: #ededed;
+  padding: 1.3em;
+  margin: 0.3em 1em 0.2em 0;
+  min-width: 150px;
+  max-width: 100%;
+}
+@media (max-width: 480px) {
+  body section article #content #subtemas {
+    width: 100%;
+  }
+}
+body section article #content #subtemas h5 {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  font-weight: bold;
+  font-size: 1.05em;
+}
+body section article #content #subtemas ul {
+  list-style: none;
+  padding: 0;
+  padding-left: 0.5em;
+  padding-top: -1em;
+  margin: 0;
+}
+body section article #content #subtemas ul li span {
+  cursor: pointer;
+}
+body section article #content #subtemas ul li span:hover {
+  border-bottom: 1px dashed #7d7d7d;
+}
+body section aside {
+  padding-top: 1em;
+  width: 270px;
+  min-height: 80vh;
+  background: #fafafa;
+}
+@media (max-width: 850px) {
+  body section aside {
+    display: none;
+  }
+}
+body section aside a {
+  text-decoration: none;
+}
+body section aside .title {
+  color: #707070;
+  padding-bottom: 0.25em;
+  margin-bottom: 0.7em;
+  border-bottom: 1px solid #e1e0e0;
+  margin-left: 0;
+}
+body section aside .version {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-left: 0;
+}
+body section aside ul {
+  list-style: none;
+  padding: 0 1.5em;
+}
+body section aside ul li,
+body section aside ul .home {
+  display: block;
+  padding: 0.1em 0;
+  font-size: 1.1em;
+  margin-left: 0.5em;
+}
+body section aside ul li .submenu,
+body section aside ul .home .submenu {
+  font-size: 0.9em;
+  padding: 0.2em 0.5em;
+}
+body section aside ul li .submenu span,
+body section aside ul .home .submenu span,
+body section aside ul li .submenu a,
+body section aside ul .home .submenu a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #2199e8;
+}
+body section aside ul li .submenu span:visited,
+body section aside ul .home .submenu span:visited,
+body section aside ul li .submenu a:visited,
+body section aside ul .home .submenu a:visited {
+  text-decoration: none;
+}
+body section aside ul li .submenu span:hover,
+body section aside ul .home .submenu span:hover,
+body section aside ul li .submenu a:hover,
+body section aside ul .home .submenu a:hover {
+  color: #147cc0;
+}
+body section aside ul li .submenu li,
+body section aside ul .home .submenu li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+body section aside ul li label,
+body section aside ul .home label,
+body section aside ul li .home,
+body section aside ul .home .home {
+  cursor: pointer;
+  color: #2199e8;
+}
+body section aside ul li label:hover,
+body section aside ul .home label:hover,
+body section aside ul li .home:hover,
+body section aside ul .home .home:hover {
+  color: #147cc0;
+}
+body section aside ul li ul.submenu,
+body section aside ul .home ul.submenu {
+  display: none;
+}
+body section aside ul li input[name="tem"],
+body section aside ul .home input[name="tem"] {
+  display: none;
+}
+body section aside ul li input[name="tem"]:checked ~ ul.submenu,
+body section aside ul .home input[name="tem"]:checked ~ ul.submenu {
+  display: block;
+}
+body section aside ul li input[name="tem"]:checked ~ label,
+body section aside ul .home input[name="tem"]:checked ~ label {
+  color: #116ca8;
+}
+body footer {
+  height: 100px;
+  background-color: #000;
+  width: 100%;
+}

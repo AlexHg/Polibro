@@ -1,0 +1,71 @@
+{
+  "nombre": "Diferencia entre administrar y gestionar",
+  "descripcion": "
+  En cualquier organización o empresa, para alcanzar los objetivos fijados, es necesario
+  que todos los elementos (materiales y humanos) cumplan su cometido. Estamos hablando de
+  la necesidad de organizar, gestionar y administrar.(Sánchez, 2013, p.21)
+  ",
+  "referencias": "https://books.google.com.mx/books?id=nun2AwAAQBAJ&pg=PA41&lpg=PA41&dq=diferencia+entre+administrar+y+gestionar+-gestion+empresarial&source=bl&ots=eOoB4NynsV&sig=gW27JvuBT-ZlI2DHyZwejy12znw&hl=es&sa=X&ved=0ahUKEwi3yqaDk-fJAhVBmh4KHYFOATwQ6AEILDAD#v=onepage&q=diferencia%20entre%20administrar%20y%20gestionar%20-gestion%20empresarial&f=false",
+  "contenido": [
+    {
+      "nombre": "Introduccion",
+      "contenido": "
+      Toda empresa debe ser administrada , gestionada y organizada para poder funcionar correctamente
+      y evitar los problemas más comunes como el exceso de gastos o la falta de organización, entre otros,
+      pero mucha gente se pregunta ¿Qué no gestionar y administrar una empresa es lo mismo?, pues la respuesta es 
+      no y lo veremos a continuación.
+"
+    },
+    {
+      "nombre": "Admon_Gestion; (Imagen)",
+      "tipo": "imagen",
+      "url": "1/multimedia/Admon_Gestion.jpg"
+    },
+    {
+      "nombre": "gestion_administrar (Video)",
+      "tipo": "video",
+      "url": "1/multimedia/9/gestion_administrar.mp4"
+    },
+    {
+      "nombre": "Conceptos Básicos",
+      "contenido": " 
+      Administrar: 
+        - Dirigir una institución.
+        - Gobernar, ejecutar la autoridad el mando.
+        - Ordenar, disponer, organizar, en especial la hacienda o los bienes.
+        - Desempeñar o ejercer un cargo, oficio o dignidad.
+      Gestionar
+        - Hacer diligencias conducentes al logro de un negocio o de un deseo cualquiera.
+        "
+    },
+    {
+      "nombre": "Diferencias resaltables",
+      "contenido": "
+          - Gestionar se basa principalmente en la aplicación de reglas, procedimietos
+            y métodos operativos para llevar con eficiencia las actividades económicas 
+            que permitan lograr los objetivos de la empresa.
+          - Por otro lado la administración tiene que ver mas con conservación o explotación
+            de la empresa para poder alcanzar los objetivos, siempre buscando que la empresa 
+            mejore financieramente.
+          - En otras palabras gestionar es dirigir tu empresa estableciendo reglas, procedimientos y metodos para
+            asegurar buenos resultados y administrar es revisar la parte financiera y a partir de eso explotar o conservar
+            más la empresa.
+        "
+    },
+    {
+      "nombre": "¿Cuáles son los tres elementos indispensables que se deben realizar para alcanzar los objetivos fijados en una empresa?",
+      "contenido": [
+      "1)Organización, Administración, Evaluación",
+      "2)Análisis,Organización,Gestión",
+      "3)Gestión, Adminstación y Organización"],
+      "respuesta": "2"
+    },{
+      "nombre": "¿Cuál es la principal diferencia entre gestionar y administrar?",
+      "contenido": [
+      "1)Administrar es ver la parte financiera de la empresa y sobre ella tomar decisiones",
+      "2)Las dos anterirores",
+      "3)Gestionar se enfoca en las reglas del negocio para lograr sus objetivos"],
+      "respuesta": "1"
+    }
+  ]
+}

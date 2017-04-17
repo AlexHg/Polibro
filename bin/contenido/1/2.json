@@ -1,0 +1,16 @@
+{
+  "nombre": "Economia",
+  "descripcion": "La economía no está considerada como una ciencia ni como una técnica si no más bien como ambas.",
+  "referencias": "",
+  "contenido": [
+    {
+      "nombre": "Economia",
+      "contenido": "Del griego oikonomía (de oikos, casa, hogar, y nomos, administración), el término economía se ha utilizado originariamente para referirse a la recta administración de la casa o hacienda familiar. Muchas han sido las definiciones de economía vertidas a lo largo del tiempo. La definición que cuenta hoy día con un mayor número de adeptos es la formulada por Lord Robbins, en su obra Ensayo sobre la naturaleza y el significado de la ciencia económica (1932): <br>La ciencia que se ocupa de la utilización de medios escasos susceptibles de usos alternativos. La economía ha sido definida como la ciencia de la riqueza; la ciencia de la administración de los recursos escasos; la ciencia que trata de la producción y el intercambio de los bienes y servicios necesarios para la satisfacción de las necesidades humanas. <br>La definición de la economía como la ciencia que se ocupa del estudio de las relaciones entre medios y fines, de Lionel Ch. Robbins, encuentra sus antecedentes en la concepción del proceso económico de Cari Menger y otros economistas de la escuela austríaca. Ciencia que se ocupa de la utilización de medios escasos susceptibles de usos alternativos Robbins. Economics. Economy. (En inglés: economics ) Ciencia que estudia la forma de asignar entre los individuos una serie de recursos, por lo general limitados, para la satisfacción de sus necesidades. Intenta resolver las cuestiones básicas de qué producir, cómo producirlo y para quién (producción, distribución y consumo)."
+    },
+    {
+      "nombre": "Economia(Video)",
+      "tipo": "video",
+      "url": "1/multimedia/videos/1/org_sist.mp4"
+    } 
+  ]
+}

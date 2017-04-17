@@ -1,0 +1,88 @@
+{
+  "nombre": "",
+  "descripcion": "
+  ",
+  "referencias": "http://es.slideshare.net/efdure/gestion-empresarial-11378477",
+  "contenido": [
+    {
+      "nombre": "Clasificación de la Gestión Empresarial",
+      "contenido": "
+		La gestión empresarial es un término que abarca un conjunto de diversas técnicas aplicadas a la administración y 
+		el tamaño de una empresa, y las clasificamos en:
+		•	Análisis Estratégico: En este, se diagnostica el escenario, identificando los escenarios político, económico 
+		y social internacionales y nacionales más probables, con el fin de analizar y conocer los agentes empresariales 
+		que son externos a la empresa.
+		•	Gestión Organizacional o Proceso Administrativo: Planificar la anticipación del quehacer futuro de la empresa 
+		y la fijación de la estrategia y las metas u objetivos a cumplir por esta; también organizar, determinar las funciones 
+		y estructura necesarias para lograr los objetivos que ha estableciendo la autoridad, y a su vez ha asignado 
+		responsabilidades que son necesarias desarrollar por quienes tendrán a cargo dichas funciones.
+		•	Gestión de la Tecnología de Información: Aplicar los sistemas de información y comunicación tanto dentro como
+		fuera de la empresa, y estas deben ser aplicadas a todas las áreas de la empresa, de este modo, se tomarán decisiones 
+		adecuadas en conjunto con el uso de internet.
+		•	Gestión Financiera: Obtener dinero y crédito al menor costo posible, para esto, anteriormente se debe haber 
+		asignado, controlado y evaluado el uso de recursos financieros de la empresa y así obtener máximos rendimientos 
+		con la ayuda de un registro contable adecuado.
+		•	Gestión de Recursos Humanos: Se debe buscar y utilizar la fuerza de trabajo en la forma más eficiente, para 
+		la obtención, mantención y desarrollo del personal.
+		•	Gestión de Operaciones y Logística de abastecimiento y distribución: Suministrar los bienes y servicios que 
+		satisfagan las necesidades de los consumidores, transformando un conjunto de materias primas, mano de obra, energía,
+		insumos, información. etc. En productos finales debidamente distribuidos, y esto es con ayuda del desarrollo de una 
+		buena logística para su adecuada distribución y consumo.
+		•	Gestión Ambiental: Se bebe buscar contribuir para crear conciencia sobre la necesidad de aplicar políticas de 
+		defensa del medio ambiente, a fin de que se tenga una aportación con la sustentabilidad dentro de la empresa.
+
+      "
+    },
+    {
+      "nombre": "Gestión; (Imagen)",
+      "tipo": "imagen",
+      "url": "1/multimedia/clasigesem.jpg"
+    },
+	
+    {
+      "nombre": "Factores de competitividad que afecta la gestión empresarial",
+      "contenido": " 
+        Podemos clasificarlo en dos grandes niveles:
+		Micro
+		•	Capacidad de gestión
+		•	Estrategias empresariales
+		•	Gestión de innovación
+		•	Prácticas en el ciclo de producción
+		•	Capacidad de integración en redes de cooperación tecnológica 
+		•	Logística empresarial
+		•	Interacción entre proveedores, productores y compradores
+		Macro
+		•	Política de infraestructura fiscal
+		•	Política educacional
+		•	Política tecnológica
+		•	Política de comercio exterior 
+
+           "
+    },
+	{
+      "nombre": "Gestión; (Imagen)",
+      "tipo": "imagen",
+      "url": "1/multimedia/interacción.png"
+    },
+    {
+      "nombre": "Factores de competitividad (Video)",
+      "tipo": "video",
+      "url": "1/multimedia/8/factores_gestion.mp4"
+    },
+
+    {
+      "nombre": "¿Qué técnica es la correcta para obtener dinero y crédito al menor costo posible, con la ayuda de un registro contable adecuado?",
+      "contenido": [
+      "1)Gestión Financiera","Gestión Organizacional o Proceso Administrativo",
+      "2)Gestión de Recursos Humanos"],
+      "respuesta": "0"
+    },{
+      "nombre": "¿Por qué son las estrategías empresariales un factor que afecta a la gestión empresarial?",
+      "contenido": [
+      "1)Porque sino son empleadas de manera correcta impiden el avance tecnologíco",
+      "2)Sino están bien planeadas, o no se conocen es imposible que la empresa lleque a sus objetivos planteados en un inicio",
+      "3)Porque resulta imposible que las políticas sean adecuadas"],
+      "respuesta": "1"
+    }
+  ]
+}

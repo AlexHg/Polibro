@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+html(lang="es")
+  head
+    // Este comentario se traducira a html
+    //-Este comentario no
+    meta(charset="UTF-8")
+    title Polilibro: Fundamentos Economicos
+
+    // Descripcion de la pagina (¡¡NO SIRVE PARA SEO!!)
+    meta(name="description", content="")
+    meta(name="author", content="")
+
+    // Metas de compativilidad movil 
+    meta(name="viewport", content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no")
+    meta(name="MobileOptimized", content="true")
+    meta(name="handheldFriendly", content="true")
+
+    script(src="js/jquery-2.1.4.min.js")
+    link(href='https://fonts.googleapis.com/css?family=Roboto:400,300italic,400italic,700,500,300' rel='stylesheet' type='text/css')
+      
+    //Icomoon
+    //-link(rel="stylesheet", href="icomoon/demo-files/demo.css")
+
+    // Estilos de css 
+    link(rel="stylesheet", href="css/estilo.css")
+
+    //Foundation
+    //-link(rel="stylesheet", href="dist/css/foundation.min.css")
+  body
+    input(type="checkbox" id="enter")
+    div.portada
+      #title
+        h1 Fundamentos Economicos
+      #credits
+      #enterb
+        label(for="enter"): span Entrar
+    header
+      #logos
+        figure
+          img(src="img/logoEscom1.png")
+          img(src="img/logoIpn1.png")
+      #title
+        h1 Fundamentos Economicos
+        span.autor Autor: prof. Enrique Torres Gonzalez
+        //div.search
+          span Buscar &nbsp; 
+          input(type="text")
+    section
+      aside
+        ul
+          li.version v0.5
+          li.title Temario
+          li(data-capitulo="0")
+            a(href=""): label.home Portada
+          li(data-capitulo="1")
+            input(type="radio" name="tem" id="tema1")
+            label(for="tema1") Capitulo 1
+            ul.submenu
+              li(data-tema="1/1") 
+                a Tema 1
+              li(data-tema="1/2") 
+                a Tema 2
+              li(data-tema="1/3") 
+                a Tema 3
+              li(data-tema="1/4") 
+                a Tema 4
+              li(data-tema="1/5") 
+                a Tema 5
+              li(data-tema="1/p") 
+                a Evaluacion
+          li(data-capitulo="2")
+            input(type="radio" name="tem" id="tema2")
+            label(for="tema2") Capitulo 2
+            ul.submenu
+              li(data-tema="2/a/1") 
+                a Actividad 1
+              li(data-tema="2/1") 
+                a Tema 1
+              li(data-tema="2/a/2") 
+                a Actividad 2
+              li(data-tema="2/2") 
+                a Tema 2
+              li(data-tema="2/3") 
+                a Tema 3
+              li(data-tema="2/4") 
+                a Tema 4
+              li(data-tema="2/a/3") 
+                a Actividad 3
+              li(data-tema="2/5") 
+                a Tema 5
+              li(data-tema="2/p") 
+                a Evaluacion
+          li(data-capitulo="3")
+            input(type="radio" name="tem" id="tema3")
+            label(for="tema3") Capitulo 3
+            ul.submenu
+              li(data-tema="3/1") 
+                a Tema 1
+              li(data-tema="3/2") 
+                a Tema 2
+              li(data-tema="3/3") 
+                a Tema 3
+              li(data-tema="3/4") 
+                a Tema 4
+              li(data-tema="3/5") 
+                a Tema 5
+          li(data-capitulo="4")
+            input(type="radio" name="tem" id="tema4")
+            label(for="tema4") Capitulo 4
+            ul.submenu
+              li(data-tema="4/1") 
+                a Tema 1
+              li(data-tema="4/2") 
+                a Tema 2
+              li(data-tema="4/a/1") 
+                a Actividad 1
+              li(data-tema="4/3") 
+                a Tema 3
+              li(data-tema="4/4") 
+                a Tema 4
+              li(data-tema="4/a/2") 
+                a Actividad 2
+              li(data-tema="4/5") 
+                a Tema 5
+              li(data-tema="4/p") 
+                a Evaluacion
+          li(data-capitulo="5")
+            input(type="radio" name="tem" id="tema5")
+            label(for="tema5") Capitulo 5
+            ul.submenu
+              li(data-tema="5/1") 
+                a Tema 1
+              li(data-tema="5/2") 
+                a Tema 2
+              li(data-tema="5/3") 
+                a Tema 3
+              li(data-tema="5/a/1") 
+                a Actividad 1
+              li(data-tema="5/4") 
+                a Tema 4
+              li(data-tema="5/5") 
+                a Tema 5
+              li(data-tema="5/p") 
+                a Evaluacion
+          li(data-capitulo="6")
+            input(type="radio" name="tem" id="tema6")
+            label(for="tema6") Capitulo 6
+            ul.submenu
+              li(data-tema="6/1") 
+                a Tema 1
+              li(data-tema="6/2") 
+                a Tema 2
+              li(data-tema="6/3") 
+                a Tema 3
+              li(data-tema="6/a/1") 
+                a Actividad 1
+              li(data-tema="6/4") 
+                a Tema 4
+              li(data-tema="6/5") 
+                a Tema 5
+              li(data-tema="6/p") 
+                a Evaluacion
+      article
+        #title
+          h2 ¡Bienvenido!
+            small ¿Estas listo para aprender sobre economia?
+          p.description
+            | El siguiente contenido virtual fue creado meramente con el proposito de servir como un apoyo visual para los alumnos que estén cursando Fundamentos Economicos. En el podrá encontrar contenido informativo y multimedia recolectado cuidadosamente de varias fuentes de la red, conteniendo así videos, audios, imagenes, graficos, ejemplos, actividades, evaluaciones, simulaciones de examenes y mucho más! 
+        #content
+          h3 Recomendaciones de uso
+          p Para obtener el maximo aprovechamiento del siguiente polilibro recomendamos que lo uses de la manera correcta:
+          ul 
+            li Antes de resolver una actividad o examen asegurate de ver todos los videos y checar todas las lecturas seriadas anteriormente.
+            li Recuerda que los resultados de los examenes y actividades no podra verlos nadie mas que tu.
+            li Tienes un numero infinito de oportunidades para resolver los examenes y actividades, si no te gusta tu nota eres libre de repetirlo cuantas veces sea necesario.
+            li Para no perderte recuerda que puedes guardar el hipervinculo en tu ordenador y abrirlo mas tarde donde te quedaste.
+            li Al final de cada examen o prueba podras ver el puntaje obtenido, calificacion, las respuestas correctas, los errores que tuviste, asi como el tiempo que tardaste en resolverlo. Todo esto con el objetivo de que cada vez que repitas un examen puedas notar las mejoras obtenidas.
+            li Es sumamente recomendable que de la informacion medianamente sintetizada tu puedas hacer resumenes mas pequeños que te permitan estudiar de manera mas eficiente, el que tomes notas tambien es parte de los objetivos de este polilibro.
+          h3 Tecnologias usadas
+          p HTML5, CSS3, JSON, JavaScript, HFS, JQuery, Firefox
+          h3 Creditos
+          p  Autor: prof. Enrique Torres Gonzalez
+    footer
+  
+  script(src="js/route.js")

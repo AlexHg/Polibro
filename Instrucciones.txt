@@ -1,0 +1,2 @@
+1. Ejecutar Polilibro.exe
+2. Pulsar "Open in browser"

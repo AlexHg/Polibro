@@ -1,0 +1,16 @@
+{
+  "nombre": "Examen del capitulo 1",
+  "descripcion": "Este es el primer examen",
+  "contenido": [
+      {
+        "pregunta": "cuando se descubrio america?",
+        "opciones": ["1492", "1569", "2012"],
+        "respuesta": "0"
+      },
+      {
+        "pregunta": "cuando se descubrio america?",
+        "opciones": ["2012", "1569", "1492"],
+        "respuesta": "2"
+      }
+    ]
+}
